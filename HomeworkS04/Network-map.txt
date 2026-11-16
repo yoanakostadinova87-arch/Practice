@@ -1,0 +1,26 @@
+Open New request wizzard:
+http://localhost:5173/vite.svg
+Request method GET
+Status code 200
+
+
+Keep wizzard active:
+http://localhost:3001/api/v1/testing-flags/active
+Request method GET
+Status code 200
+
+Submit request:
+http://localhost:3001/api/v1/requests
+Request method POST
+Status code 201
+
+Display request results with newest on top:
+http://localhost:3001/api/v1/requests?page=1&size=10&sort=id%3Adesc
+Request method GET
+Status code 200
+
+Login with wrong pass returns 401:
+Request URL
+http://localhost:3001/api/v1/auth/login
+Request method POST
+Status code 401 Unauthorized
