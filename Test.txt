@@ -1,1 +1,2 @@
-Test123
+// Write a request status validator: given the current and the next status, 
+// print whether the transition is allowed (Submitted → In Review → Resolved; In Review → Waiting for Info → In Review)
